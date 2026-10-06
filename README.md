@@ -10,7 +10,7 @@ O objetivo é praticar o fluxo completo: escrever a aplicação, empacotá-la em
 - Expõe a rota `GET /projeto-docker`, que responde:
 
 ```json
-{ "message": "Fullstack Academy - Docker do zero" }
+{ "message": "Testando aplicação Docker" }
 ```
 
 - Já inclui o Prisma configurado com um model `User` (`id`, `email`, `name`) e o client em `src/lib/prisma.ts`, pronto para ser usado nas rotas.
@@ -127,7 +127,7 @@ curl http://localhost:3000/projeto-docker
 Resposta esperada:
 
 ```json
-{"message":"Fullstack Academy - Docker do zero"}
+{"message":"Testando aplicação Docker"}
 ```
 
 ## Como funciona
@@ -191,4 +191,4 @@ Se aparecer o erro `container name already in use`, remova o container antigo co
 
 ## Autor
 
-Feito por [Wilson Simões](https://github.com/Wilson-Simoes) durante o curso Fullstack Academy.
+Feito por [Wilson Simões](https://github.com/Wilson-Simoes) - Curso Docker do Zero ao Avançado.
