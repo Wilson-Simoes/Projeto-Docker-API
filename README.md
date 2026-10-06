@@ -188,7 +188,3 @@ docker network rm app-net    # remove a rede
 ```
 
 Se aparecer o erro `container name already in use`, remova o container antigo com `docker rm api` (ou `docker rm postgres`) antes de rodar o comando novamente.
-
-## Autor
-
-Feito por [Wilson Simões](https://github.com/Wilson-Simoes) - Curso Docker do Zero ao Avançado.
