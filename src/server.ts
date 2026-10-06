@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/projeto-docker", (req, res) => {
-    res.json({ message: "Fullstack Academy - Docker do zero" });
+    res.json({ message: "Testando aplicação Docker!" });
 });
 
 app.listen(3000, () => {
